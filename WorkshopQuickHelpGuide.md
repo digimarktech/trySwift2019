@@ -17,6 +17,7 @@ Enter the following commands in the command line in order to establish a connect
 ## Raspberry PI Commands
 
 - `hostname -I` - returns IP Address of the Raspberry PI.
+- `ssh-keygen -R <IP-ADDRESS>` - Entering this command will reset the remote host key on the PI. For more info check [here](https://www.raspberrypi.org/forums/viewtopic.php?t=104253).
 - `ssh pi@<IP-ADDRESS>` - Entering this command in the command line will create a SSH connection between your computer and your pi. This is just another method to connect to the pi.
 - `ssh-copy-id pi@<IP-ADDRESS>` - copys your public key to the PI. Used for ssh purposes
 - `ssh-add -K ~/.ssh/id_rsa` - Store the passphrase for your key in the macOS Keychain. This will make it so that you don't have to enter the passphrase each time you connect to your Pi.
