@@ -34,3 +34,8 @@ Enter the following commands in the command line in order to establish a connect
 
 - [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO) - A Swift library for hardware projects on Linux/ARM boards with support for GPIOs/SPI/I2C/PWM/UART/1Wire. We will use this library to access our `GPIO` pins.
 - [Swish](https://github.com/thomaspaulmann/Swish) - Build Swift Projects on a Remote Machine within Xcode. We will use this library to build our Swift code from XCode to the Raspberry PI.
+
+## Applications Used
+
+- [Fritzing](http://fritzing.org/download/0.9.3b/mac-os-x-105/Fritzing0.9.3b.dmg) - Application used for viewing circuits and creating circuit diagrams.
+- [balanaEtcher](https://www.balena.io/etcher/) - Application used to create disk images.
